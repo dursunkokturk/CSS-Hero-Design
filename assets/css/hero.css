@@ -1,0 +1,68 @@
+.background {
+  width: 1440px;
+  height: 692px;
+}
+
+.background .content {
+  width: 459px;
+  height: 248px;
+  margin: 80px 165px;
+}
+
+/* .background .content .left {
+  margin-right: 95px;
+} */
+
+.background .content .left h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 60px;
+  font-weight: 700;
+}
+
+.background .content .left .write {
+  font-family: Arial, Helvetica, sans-serif;
+  /* font-size: 60px;
+  font-weight: 700; */
+}
+
+.background .content .left .price {
+  font-size: 40px;
+  font-weight: 700px;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 232px;
+  height: 48px;
+}
+
+.background .content .left .price span {
+  font-size: 24px;
+  font-weight: 400;
+  font-family: Arial, Helvetica, sans-serif;
+  opacity: 50%;
+  text-decoration: line-through
+}
+
+.background .content .content-right-oval {
+  width: 532px;
+  height: 532px;
+  border-radius: 50%;
+  background-color: #FFD65A;
+  margin-left: 500px;
+  margin-top: -400px;
+}
+
+.background .content .content img {
+  width: 493px;
+  height: 328px;
+  margin-left: 475px;
+  margin-top: -400px;
+}
+
+.background .content .img-dark {
+  margin-top: -500px;
+  margin-left: 450px;
+}
+
+.background .content .img-light {
+  margin-top: -300px;
+  margin-left: 560px;
+}
