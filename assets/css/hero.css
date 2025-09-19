@@ -1,68 +1,48 @@
-.background {
-  width: 1440px;
-  height: 692px;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: system-ui;
 }
 
-.background .content {
-  width: 459px;
-  height: 248px;
-  margin: 80px 165px;
+body {
+  background-image: url('/assets/img/background.png');
 }
 
-/* .background .content .left {
-  margin-right: 95px;
-} */
+.content {
+  padding-left: 165px;
+  padding-top: 138px;
+  float: left;
+}
 
-.background .content .left h2 {
-  font-family: Arial, Helvetica, sans-serif;
+.content h2 {
   font-size: 60px;
-  font-weight: 700;
+  font-weight: bold;
+  padding-bottom: 24px;
 }
 
-.background .content .left .write {
-  font-family: Arial, Helvetica, sans-serif;
-  /* font-size: 60px;
-  font-weight: 700; */
+.content .write {
+  font-size: 20px;
 }
 
-.background .content .left .price {
+.content .price {
   font-size: 40px;
-  font-weight: 700px;
-  font-family: Arial, Helvetica, sans-serif;
-  width: 232px;
-  height: 48px;
+  font-weight: bold;
+  padding-bottom: 50px;
 }
 
-.background .content .left .price span {
+.content .price span {
   font-size: 24px;
-  font-weight: 400;
-  font-family: Arial, Helvetica, sans-serif;
-  opacity: 50%;
-  text-decoration: line-through
+  font-weight: bold;
 }
 
-.background .content .content-right-oval {
-  width: 532px;
-  height: 532px;
-  border-radius: 50%;
-  background-color: #FFD65A;
-  margin-left: 500px;
-  margin-top: -400px;
+a {
+  padding: 40px 16px;
+  font-size: 23px;
+  background-color: lightblue;
+  text-decoration: none;
 }
 
-.background .content .content img {
-  width: 493px;
-  height: 328px;
-  margin-left: 475px;
-  margin-top: -400px;
-}
-
-.background .content .img-dark {
-  margin-top: -500px;
-  margin-left: 450px;
-}
-
-.background .content .img-light {
-  margin-top: -300px;
-  margin-left: 560px;
+img {
+  padding-top: 80px;
 }
